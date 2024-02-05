@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap");
+
+#carousel {
+  position: relative;
+
+  border-radius: 20px !important;
+  box-shadow: #5cb7e974 -5px 7px 10px;
+  border-top-right-radius: 10px 10px;
+}
+
+.slider_img {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px !important;
+}
+.arabic1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0 !important;
+  top: 0 !important;
+  border-radius: 20px !important;
+  background-color: rgba(1,1,1,0.5);
+}
+.english1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0 !important;
+  top: 0 !important;
+  border-radius: 20px !important;
+  background-color: rgba(1,1,1,0.5);
+}
+#h3 {
+  color: white;
+  text-shadow: 4px 3px 0px #000, 9px 8px 0px rgb(0 0 0 / 15%);
+width:100%;
+  font-weight: bold;
+  font-size: 70px;
+  font-family: "Cairo", sans-serif !important;
+ text-align:end;
+ padding:5px 50px;
+  display:flex;
+  justify-content:center;
+ 
+}
+#h3e {
+  color: white;
+  text-shadow: 4px 0px 0px #000, 2px 0px 0px rgb(0 0 0 / 8%);
+  font-weight: bold;
+  font-size: 70px;
+  font-family: "Cairo", sans-serif !important;
+ text-align:end;
+ 
+ padding:5px 50px;
+ display:flex;
+  justify-content:center;
+}
+
+#p_slider {
+width:100%;
+  color: white;
+  display:flex;
+  position:relative;
+  top:50%;
+  justify-content:center;
+  font-weight: 800;
+  font-size: 3rem;
+  font-family: "Cairo", sans-serif !important;
+
+
+}
+#p_slidere {
+  color: white;
+width:100%;
+  color: white;
+  display:flex;
+  position:relative;
+  top:50%;
+  justify-content:center;
+  font-weight: 800;
+  font-size: 3rem;
+  font-family: "Cairo", sans-serif !important;
+
+
+}
+@media (max-width: 1024px) {
+ 
+  #h3 {
+    color: white;
+    font-size: 60px;
+    font-family: "Cairo", sans-serif !important;
+    left: 58%;
+    position: absolute;
+    width: 40%;
+    top: 20%;
+  }
+  #h3e {
+    color: white;
+    font-size: 60px;
+    font-family: "Cairo", sans-serif !important;
+    left: 3%;
+    position: absolute;
+    width: 60%;
+    top: 20%;
+  }
+}
+@media (max-width: 768px) {
+ 
+  #h3 {
+    color: white;
+    font-size: 50px;
+    font-family: "Cairo", sans-serif !important;
+    left: 40%;
+    position: absolute;
+    width: 60%;
+    top: 20%;
+  }
+  #h3e {
+    color: white;
+    font-size: 50px;
+    font-family: "Cairo", sans-serif !important;
+    left: 5%;
+    position: absolute;
+    width: 50%;
+    top: 20%;
+  }
+}
+
+@media (max-width: 425px) {
+  
+  #h3 {
+    color: white;
+    font-size: 40px;
+    font-family: "Cairo", sans-serif !important;
+    left: 40%;
+    position: absolute;
+    width: 60%;
+  }
+  #h3e {
+    color: white;
+    font-size: 50px;
+    font-family: "Cairo", sans-serif !important;
+    left: 28%;
+    position: absolute;
+    width: 50%;
+  }
+}

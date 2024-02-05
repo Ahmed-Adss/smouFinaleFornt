@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap");
+
+.featurette-divider {
+  margin: 5rem;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  margin-top: 40px;
+}
+span .quote {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px !important;
+}
+
+span .capital {
+  font-size: 25px;
+  color: white;
+}
+
+.vision-det,
+.mission-det,
+.value-det {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 40px;
+}
+.vision-det {
+  background-image: url("../../../../public/imgs/about/1.jpg");
+}
+.mission-det {
+  background-image: url("../../../../public/imgs/about/2.jpg");
+}
+.value-det {
+  background-image: url("../../../../public/imgs/about/3.jpg");
+}
+
+.featu {
+  display: flex;
+  flex-direction: column;
+}
+
+.featurette {
+  background: linear-gradient(to top, #1d709d68, #8e7e71c0),
+    url("../../../../public/imgs/about/wallpaper2.jpg");
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 15px 0 0 15px;
+  box-shadow: 3px 5px rgba(24, 6, 6, 0.318);
+  align-self: flex-start;
+}
+.featurette1 {
+  background: linear-gradient(to top, #1d709d68, #8e7e71c0),
+    url("../../../../public/imgs/about/wallpaper2.jpg");
+  max-width: 80%;
+  max-height: 80%;
+  margin-right: 50px;
+  border-radius: 0 15px 15px 0;
+  box-shadow: 3px 5px rgba(24, 6, 6, 0.318);
+  align-self: flex-end;
+}
+.featuretteDark {
+  background: linear-gradient(to top, #0d2d3fda, #3d3631c0),
+    url("../../../../public/imgs/about/wallpaper2.jpg");
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 15px 0 0 15px;
+  box-shadow: 3px 5px rgba(24, 6, 6, 0.318);
+  box-shadow: #5cb7e974 -5px 7px 10px;
+  align-self: flex-start;
+}
+.featurette1Dark {
+  background: linear-gradient(to top, #0d2d3fda, #3d3631c0),
+    url("../../../../public/imgs/about/wallpaper2.jpg");
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 0 15px 15px 0;
+  box-shadow: #5cb7e974 5px 7px 10px;
+  border-top-left-radius: 10px 10px;
+  align-self: flex-end;
+}
+
+.text-lightcustom {
+  color: #1d709d;
+}
+.text-darkcustom {
+  color: #9cd7f7;
+}
+
+#text {
+  font-size: 60px;
+  font-family: "Cairo";
+  font-weight: 400;
+}
+#text1 {
+  font-size: 60px;
+  font-family: "Cairo";
+  font-weight: 400;
+}
+.divdark {
+  color: #61c6fc;
+  height: 5px;
+  background-color: white;
+  opacity: 0.9;
+  box-shadow: #08edf5fd 5px 4px 5px;
+}
+@media (max-width: 425px) {
+  .row-three,
+  .row-threeDark {
+    background: transparent !important;
+    box-shadow: none;
+    margin-right: -70px !important;
+  }
+
+  svg .value-text {
+    position: absolute;
+    left: -90px;
+  }
+  .featurette1,
+  .featurette1Dark {
+    max-width: 100%;
+  }
+  .featurette,
+  .featuretteDark {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #text {
+    font-size: 40px;
+  }
+  #text1 {
+    font-size: 40px;
+  }
+}
